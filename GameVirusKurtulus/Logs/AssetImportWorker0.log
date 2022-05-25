@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.31f1 (6b54b7616050) revision 7034039'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'tr' Physical Memory: 16222 MB
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 7914 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,116 +11,113 @@ C:\Program Files\Unity\Hub\Editor\2020.3.31f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/smhucr/Documents/GitHub/VirusKurtulus/GameVirusKurtulus
+C:/Users/asus/Desktop/proje/VirusKurtulus/GameVirusKurtulus
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61010
-Successfully changed project path to: C:/Users/smhucr/Documents/GitHub/VirusKurtulus/GameVirusKurtulus
-C:/Users/smhucr/Documents/GitHub/VirusKurtulus/GameVirusKurtulus
+61819
+Successfully changed project path to: C:/Users/asus/Desktop/proje/VirusKurtulus/GameVirusKurtulus
+C:/Users/asus/Desktop/proje/VirusKurtulus/GameVirusKurtulus
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 169.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.31f1 (6b54b7616050)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/smhucr/Documents/GitHub/VirusKurtulus/GameVirusKurtulus/Assets
+[Subsystems] Discovering subsystems at path C:/Users/asus/Desktop/proje/VirusKurtulus/GameVirusKurtulus/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
     Vendor:   
-    VRAM:     3962 MB
-    Driver:   30.0.15.1277
+    VRAM:     3990 MB
+    Driver:   30.0.15.1169
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002083 seconds.
+Registered in 0.005882 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 38.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 215.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.503 seconds
+- Completed reload, in  2.222 seconds
 Domain Reload Profiling:
-	ReloadAssembly (503ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (2223ms)
+		BeginReloadAssembly (231ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (387ms)
-			LoadAssemblies (53ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1735ms)
+			LoadAssemblies (224ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (131ms)
+			SetupTypeCache (558ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (145ms)
+			RebuildScriptCaches (122ms)
+			SetupLoadedEditorAssemblies (708ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (38ms)
-				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (216ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (313ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002526 seconds.
+Registered in 0.012325 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 38.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 178.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.916 seconds
+- Completed reload, in  3.796 seconds
 Domain Reload Profiling:
-	ReloadAssembly (917ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (3799ms)
+		BeginReloadAssembly (501ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (731ms)
-			LoadAssemblies (85ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (3089ms)
+			LoadAssemblies (336ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (235ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (281ms)
+			SetupTypeCache (970ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (165ms)
+			SetupLoadedEditorAssemblies (1256ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (39ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (158ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (179ms)
+				BeforeProcessingInitializeOnLoad (299ms)
+				ProcessInitializeOnLoadAttributes (691ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.9 MB.
+System memory in use before: 97.0 MB.
 System memory in use after: 96.9 MB.
 
 Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2631.
-Total: 2.650700 ms (FindLiveObjects: 0.147400 ms CreateObjectMapping: 0.067800 ms MarkObjects: 2.324700 ms  DeleteObjects: 0.110200 ms)
+Total: 6.445000 ms (FindLiveObjects: 0.246500 ms CreateObjectMapping: 0.114100 ms MarkObjects: 5.747600 ms  DeleteObjects: 0.334700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -129,378 +126,571 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0015_1pixel_platform_01_tileset_final_64x64_0004s_0002_topmiddle_grass_platform-copy.png
-  artifactKey: Guid(1080873d935929546a8b5442f2cb87a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0015_1pixel_platform_01_tileset_final_64x64_0004s_0002_topmiddle_grass_platform-copy.png using Guid(1080873d935929546a8b5442f2cb87a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489af0747a3ce31a3245ca8790c1d152') in 0.102952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0024_1pixel_platform_01_tileset_final_64x64_0002s_0003_topmiddle30_grass_platform-copy-3.png
-  artifactKey: Guid(8eecf0857cfa0574f909287ed50e0c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0024_1pixel_platform_01_tileset_final_64x64_0002s_0003_topmiddle30_grass_platform-copy-3.png using Guid(8eecf0857cfa0574f909287ed50e0c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7fefaa039d37b679d198da4c7c7e1b') in 0.013624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0023_1pixel_platform_01_tileset_final_64x64_0003_minilmiddle_grass_platform-copy.png
-  artifactKey: Guid(7cca7074bfb0cc74cba5c2c491f9920b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0023_1pixel_platform_01_tileset_final_64x64_0003_minilmiddle_grass_platform-copy.png using Guid(7cca7074bfb0cc74cba5c2c491f9920b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51c21414c4a64154d4b5bdba28fbeb4') in 0.010244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0002_2pixel_platform_01_tileset_final_64x64_0000s_0002_moveable_right_platform.png
-  artifactKey: Guid(597d385f48cf99641b481f4187964d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0002_2pixel_platform_01_tileset_final_64x64_0000s_0002_moveable_right_platform.png using Guid(597d385f48cf99641b481f4187964d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca597e24903aec60ca4cab14cf115452') in 0.010775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0007_1pixel_platform_01_tileset_final_64x64_0009_rightbottom_grass_platform.png
-  artifactKey: Guid(0d01202c745375640ab6ca75e181d183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0007_1pixel_platform_01_tileset_final_64x64_0009_rightbottom_grass_platform.png using Guid(0d01202c745375640ab6ca75e181d183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e82c0881fed579b66e8281fa728cbf') in 0.011456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0016_1pixel_platform_01_tileset_final_64x64_0004s_0001_topmiddle45_grass_platform.png
-  artifactKey: Guid(945956a6ad78ed741a389b544509638c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0016_1pixel_platform_01_tileset_final_64x64_0004s_0001_topmiddle45_grass_platform.png using Guid(945956a6ad78ed741a389b544509638c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e57d6ec6a2f325aec68276b097d721b') in 0.010391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0017_1pixel_platform_01_tileset_final_64x64_0004s_0000_topmiddle_grass_platform-copy-3.png
-  artifactKey: Guid(94d43a5de5253a54b947f50a274454fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0017_1pixel_platform_01_tileset_final_64x64_0004s_0000_topmiddle_grass_platform-copy-3.png using Guid(94d43a5de5253a54b947f50a274454fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf73ca471f00a8aec392be4cd952b86') in 0.009763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0028_1pixel_platform_01_tileset_final_64x64_0001_minileft_grass_platform-copy-2.png
-  artifactKey: Guid(9639d5da105a6214eb1e048f6e050158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0028_1pixel_platform_01_tileset_final_64x64_0001_minileft_grass_platform-copy-2.png using Guid(9639d5da105a6214eb1e048f6e050158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2340b20adf39572a8b2fa51caf2af6ab') in 0.010955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0018_1pixel_platform_01_tileset_final_64x64_0004_singlebottom_grass_platform-copy-5.png
-  artifactKey: Guid(16d312314e6034f448a3b618cd6bab1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0018_1pixel_platform_01_tileset_final_64x64_0004_singlebottom_grass_platform-copy-5.png using Guid(16d312314e6034f448a3b618cd6bab1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f69df720a73871b5c35dde2c597bd7') in 0.012372 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0008_1pixel_platform_01_tileset_final_64x64_0008_rightttop_grass_platform.png
-  artifactKey: Guid(d12750af5ab9d9847920a856ddc744f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0008_1pixel_platform_01_tileset_final_64x64_0008_rightttop_grass_platform.png using Guid(d12750af5ab9d9847920a856ddc744f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eadc34a8610244088a755cd0ef5eac1') in 0.010535 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0000_3pixel_platform_01_tileset_final_64x64_0001s_0000_Group-3.png
-  artifactKey: Guid(a02acb1132a1c27448ab2c547dfeecc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0000_3pixel_platform_01_tileset_final_64x64_0001s_0000_Group-3.png using Guid(a02acb1132a1c27448ab2c547dfeecc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1c872b9c30b4ba45fc3d7d068642a1') in 0.010401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0005_1pixel_platform_01_tileset_final_64x64_0011_middle_grass_platform.png
-  artifactKey: Guid(14f47984b8faa8d499904c666077e87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0005_1pixel_platform_01_tileset_final_64x64_0011_middle_grass_platform.png using Guid(14f47984b8faa8d499904c666077e87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e469d6a3c44e6d9d9abd908be480868') in 0.010102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0010_1pixel_platform_01_tileset_final_64x64_0006_lefttop_grass_platform.png
-  artifactKey: Guid(c056a82414f4e3449ace2ec99887369d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0010_1pixel_platform_01_tileset_final_64x64_0006_lefttop_grass_platform.png using Guid(c056a82414f4e3449ace2ec99887369d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffa558d1ab93c692403442a39573ce8') in 0.013146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0014_1pixel_platform_01_tileset_final_64x64_0005_singletop_grass_platform-copy-5.png
-  artifactKey: Guid(4e32a30cb8b53c94fbbf491dda5d8b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0014_1pixel_platform_01_tileset_final_64x64_0005_singletop_grass_platform-copy-5.png using Guid(4e32a30cb8b53c94fbbf491dda5d8b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911f71f2f97dd06e7719cc2208c56028') in 0.010907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0027_1pixel_platform_01_tileset_final_64x64_0002_minileft_grass_platform-copy.png
-  artifactKey: Guid(637719a707aeac042b3e32baa4ae8b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0027_1pixel_platform_01_tileset_final_64x64_0002_minileft_grass_platform-copy.png using Guid(637719a707aeac042b3e32baa4ae8b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9ea74611a0ac6ea449245c94510e10') in 0.009741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0020_1pixel_platform_01_tileset_final_64x64_0003s_0002_topmiddle30_grass_platform-copy-4.png
-  artifactKey: Guid(abf34a8acbb82f949a4b9ddb50bc4cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0020_1pixel_platform_01_tileset_final_64x64_0003s_0002_topmiddle30_grass_platform-copy-4.png using Guid(abf34a8acbb82f949a4b9ddb50bc4cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0473a7d16aa06f6c1cd7a499a0ba40') in 0.012048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0029_1pixel_platform_01_tileset_final_64x64_0002s_0002_topmiddle30_grass_platform-copy-4.png
-  artifactKey: Guid(56d384b61b11d3a448ea71fa47fd5d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0029_1pixel_platform_01_tileset_final_64x64_0002s_0002_topmiddle30_grass_platform-copy-4.png using Guid(56d384b61b11d3a448ea71fa47fd5d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328191021c54bba645b8aeb11f71f006') in 0.011095 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0009_1pixel_platform_01_tileset_final_64x64_0007_leftbottom_grass_platform.png
-  artifactKey: Guid(bf98360601c561049a11d8bef2c420cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0009_1pixel_platform_01_tileset_final_64x64_0007_leftbottom_grass_platform.png using Guid(bf98360601c561049a11d8bef2c420cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a94126fb7bd614507454f8a9984c8c7') in 0.011103 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_1pixel_platform_01_tileset_final_64x64_0003s_0001_topmiddle30_grass_platform copy 5.png
-  artifactKey: Guid(e081510f4b3924d4c9b10b32f2d7080c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_1pixel_platform_01_tileset_final_64x64_0003s_0001_topmiddle30_grass_platform copy 5.png using Guid(e081510f4b3924d4c9b10b32f2d7080c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6d0357730610cdeaec1dcc4ee374d7') in 0.009409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0003_2pixel_platform_01_tileset_final_64x64_0000s_0001_moveable_left_platform.png
-  artifactKey: Guid(190e013a638caf542b8896e8c69b28c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0003_2pixel_platform_01_tileset_final_64x64_0000s_0001_moveable_left_platform.png using Guid(190e013a638caf542b8896e8c69b28c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692eb84450a51f0322a1ed80e0b73d07') in 0.009821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0011_1pixel_platform_01_tileset_final_64x64_0005s_0002_topmiddle_grass_platform-copy.png
-  artifactKey: Guid(86bc9867fa95dc94da88ecd87ff8a2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0011_1pixel_platform_01_tileset_final_64x64_0005s_0002_topmiddle_grass_platform-copy.png using Guid(86bc9867fa95dc94da88ecd87ff8a2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faca7aa330a8a71394bee49685e0b32a') in 0.013166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0013_1pixel_platform_01_tileset_final_64x64_0005s_0000_topmiddle_grass_platform-copy-3.png
-  artifactKey: Guid(0943e21c96d710b4891759b198e4e7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0013_1pixel_platform_01_tileset_final_64x64_0005s_0000_topmiddle_grass_platform-copy-3.png using Guid(0943e21c96d710b4891759b198e4e7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5351015171ece658b68c7c163105674e') in 0.010616 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_1pixel_platform_01_tileset_final_64x64_0002s_0001_topmiddle30_grass_platform copy 5.png
-  artifactKey: Guid(1d5baf0a3c5fb794da0b50dfd7b49527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_1pixel_platform_01_tileset_final_64x64_0002s_0001_topmiddle30_grass_platform copy 5.png using Guid(1d5baf0a3c5fb794da0b50dfd7b49527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b595e793bb3eaa6cb55b031bf368c213') in 0.010355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0026_1pixel_platform_01_tileset_final_64x64_0002s_0000_topmiddle30_grass_platform-copy-8.png
-  artifactKey: Guid(94358d43b888dcb43ad49af8ec0bf8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0026_1pixel_platform_01_tileset_final_64x64_0002s_0000_topmiddle30_grass_platform-copy-8.png using Guid(94358d43b888dcb43ad49af8ec0bf8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c708adcee3637a9971be1de469b24b9') in 0.010901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0019_1pixel_platform_01_tileset_final_64x64_0003s_0003_topmiddle30_grass_platform-copy-3.png
-  artifactKey: Guid(9f8ae12a0c7173b40a95959e8290c733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0019_1pixel_platform_01_tileset_final_64x64_0003s_0003_topmiddle30_grass_platform-copy-3.png using Guid(9f8ae12a0c7173b40a95959e8290c733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5b7ecab1de54a0fd2c3d190b037e3c') in 0.010734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0006_1pixel_platform_01_tileset_final_64x64_0010_topmiddle_grass_platform.png
-  artifactKey: Guid(8076de0a2bd20434ea48d19cd0a390c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0006_1pixel_platform_01_tileset_final_64x64_0010_topmiddle_grass_platform.png using Guid(8076de0a2bd20434ea48d19cd0a390c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e035c51b9dc6c50b2b4125341eeccd41') in 0.010254 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0004_2pixel_platform_01_tileset_final_64x64_0000s_0000_moveable_single_platform-copy.png
-  artifactKey: Guid(86ab0b34673f5064b94310e2d7dddd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0004_2pixel_platform_01_tileset_final_64x64_0000s_0000_moveable_single_platform-copy.png using Guid(86ab0b34673f5064b94310e2d7dddd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2d0bab3251350aa9751acc8c65df01') in 0.010137 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0012_1pixel_platform_01_tileset_final_64x64_0005s_0001_topmiddle45_grass_platform.png
-  artifactKey: Guid(583311944a914664fb08993ab7c2f527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0012_1pixel_platform_01_tileset_final_64x64_0005s_0001_topmiddle45_grass_platform.png using Guid(583311944a914664fb08993ab7c2f527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b283797afb88eb0bde9a2e2fd10a6da') in 0.012557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0001_2pixel_platform_01_tileset_final_64x64_0000s_0003_moveable_middle_platform.png
-  artifactKey: Guid(4f45449aafdf9884aa82763cce2df7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0001_2pixel_platform_01_tileset_final_64x64_0000s_0003_moveable_middle_platform.png using Guid(4f45449aafdf9884aa82763cce2df7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f38f8e4713a07f0e7ccbd1cd90e2a7') in 0.011920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0022_1pixel_platform_01_tileset_final_64x64_0003s_0000_topmiddle30_grass_platform-copy-8.png
-  artifactKey: Guid(836c1d3f632a2b74f90735bb60558a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0022_1pixel_platform_01_tileset_final_64x64_0003s_0000_topmiddle30_grass_platform-copy-8.png using Guid(836c1d3f632a2b74f90735bb60558a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa6a452a0f713226791614fb6b8510b') in 0.010308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 79.918044 seconds.
-  path: Assets/Tilesets/PlatformTileSet/New Palette.prefab
-  artifactKey: Guid(b5a1ebfed00d0a44cbc537e1d499c44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/New Palette.prefab using Guid(b5a1ebfed00d0a44cbc537e1d499c44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5dbf5b4a94cea331d786b7ce21658d') in 0.048239 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
   path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_1pixel_platform_01_tileset_final_64x64_0003s_0001_topmiddle30_grass_platform copy 5.asset
   artifactKey: Guid(a39d76b067650354f9e46fdc46e8932b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_1pixel_platform_01_tileset_final_64x64_0003s_0001_topmiddle30_grass_platform copy 5.asset using Guid(a39d76b067650354f9e46fdc46e8932b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc65616d6a1cc804a416c7390c90721d') in 0.019619 seconds 
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_1pixel_platform_01_tileset_final_64x64_0003s_0001_topmiddle30_grass_platform copy 5.asset using Guid(a39d76b067650354f9e46fdc46e8932b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07fc5ead9734d610505a5801da332430') in 0.259655 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000185 seconds.
+  Time since last request: 0.000847 seconds.
   path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0029_1pixel_platform_01_tileset_final_64x64_0002s_0002_topmiddle30_grass_platform-copy-4.asset
   artifactKey: Guid(0973717522a5f904698da53a55064b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0029_1pixel_platform_01_tileset_final_64x64_0002s_0002_topmiddle30_grass_platform-copy-4.asset using Guid(0973717522a5f904698da53a55064b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e1167b4352981821be786d07c3ccdc') in 0.008852 seconds 
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0029_1pixel_platform_01_tileset_final_64x64_0002s_0002_topmiddle30_grass_platform-copy-4.asset using Guid(0973717522a5f904698da53a55064b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d23de9c65ff22091ea90645715be32') in 0.044443 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000182 seconds.
+  Time since last request: 0.000825 seconds.
   path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0017_1pixel_platform_01_tileset_final_64x64_0004s_0000_topmiddle_grass_platform-copy-3.asset
   artifactKey: Guid(360a094e26cd51a468e8bfef6f20ec94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0017_1pixel_platform_01_tileset_final_64x64_0004s_0000_topmiddle_grass_platform-copy-3.asset using Guid(360a094e26cd51a468e8bfef6f20ec94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71534e32ab13f7da56b38ec4eb953c82') in 0.009050 seconds 
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0017_1pixel_platform_01_tileset_final_64x64_0004s_0000_topmiddle_grass_platform-copy-3.asset using Guid(360a094e26cd51a468e8bfef6f20ec94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771df62adb17cdc121982c35a974379b') in 0.035161 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000240 seconds.
+  Time since last request: 0.000947 seconds.
   path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0016_1pixel_platform_01_tileset_final_64x64_0004s_0001_topmiddle45_grass_platform.asset
   artifactKey: Guid(049fb89dacc95864e86ca48cf02c100f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0016_1pixel_platform_01_tileset_final_64x64_0004s_0001_topmiddle45_grass_platform.asset using Guid(049fb89dacc95864e86ca48cf02c100f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c4eff1cdee8e5399065d62a885dc17') in 0.009259 seconds 
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0016_1pixel_platform_01_tileset_final_64x64_0004s_0001_topmiddle45_grass_platform.asset using Guid(049fb89dacc95864e86ca48cf02c100f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef549b50f75453afcca9c1dd0e412260') in 0.040794 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000184 seconds.
+  Time since last request: 0.000810 seconds.
   path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0006_1pixel_platform_01_tileset_final_64x64_0010_topmiddle_grass_platform.asset
   artifactKey: Guid(4ded016bd387b5049af7d89525674897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0006_1pixel_platform_01_tileset_final_64x64_0010_topmiddle_grass_platform.asset using Guid(4ded016bd387b5049af7d89525674897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816332c650ec9380c6a2ce737ac44b32') in 0.009166 seconds 
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0006_1pixel_platform_01_tileset_final_64x64_0010_topmiddle_grass_platform.asset using Guid(4ded016bd387b5049af7d89525674897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caeb24de256afac72efcac61703dcc7b') in 0.036985 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000295 seconds.
+  Time since last request: 0.000679 seconds.
   path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0000_3pixel_platform_01_tileset_final_64x64_0001s_0000_Group-3.asset
   artifactKey: Guid(76ca7651cebf3e14cbe5e2997875060a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0000_3pixel_platform_01_tileset_final_64x64_0001s_0000_Group-3.asset using Guid(76ca7651cebf3e14cbe5e2997875060a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc9b84a86f9a2730e430dc2e4e688ae') in 0.009922 seconds 
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0000_3pixel_platform_01_tileset_final_64x64_0001s_0000_Group-3.asset using Guid(76ca7651cebf3e14cbe5e2997875060a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe99178d4e78c857c9ec7690327fcd9') in 0.035320 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000174 seconds.
+  Time since last request: 0.000583 seconds.
   path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0028_1pixel_platform_01_tileset_final_64x64_0001_minileft_grass_platform-copy-2.asset
   artifactKey: Guid(9e2fec43a41b1f04b993bf79096578c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0028_1pixel_platform_01_tileset_final_64x64_0001_minileft_grass_platform-copy-2.asset using Guid(9e2fec43a41b1f04b993bf79096578c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5731c007472f9c6dca8a4388e0415332') in 0.009434 seconds 
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0028_1pixel_platform_01_tileset_final_64x64_0001_minileft_grass_platform-copy-2.asset using Guid(9e2fec43a41b1f04b993bf79096578c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5abc986d5bb014e78855dc9396ce9382') in 0.036202 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000208 seconds.
+  Time since last request: 0.000539 seconds.
   path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0022_1pixel_platform_01_tileset_final_64x64_0003s_0000_topmiddle30_grass_platform-copy-8.asset
   artifactKey: Guid(f487bab90d9f9a642b098d9a8786e422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0022_1pixel_platform_01_tileset_final_64x64_0003s_0000_topmiddle30_grass_platform-copy-8.asset using Guid(f487bab90d9f9a642b098d9a8786e422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff896dde19a0d4a2f653cda36ceb0fe') in 0.009090 seconds 
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0022_1pixel_platform_01_tileset_final_64x64_0003s_0000_topmiddle30_grass_platform-copy-8.asset using Guid(f487bab90d9f9a642b098d9a8786e422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2e84e956ae20999b983f70e98728e1') in 0.035430 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0018_1pixel_platform_01_tileset_final_64x64_0004_singlebottom_grass_platform-copy-5.asset
-  artifactKey: Guid(b43a528461c3fe04f9e0efe4d333e3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0018_1pixel_platform_01_tileset_final_64x64_0004_singlebottom_grass_platform-copy-5.asset using Guid(b43a528461c3fe04f9e0efe4d333e3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a222b54bcb1ecc4dd03113b8f23ddba9') in 0.011037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_1pixel_platform_01_tileset_final_64x64_0002s_0001_topmiddle30_grass_platform copy 5.asset
-  artifactKey: Guid(e4eda631b3d62f844bae7f400d8ba81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_1pixel_platform_01_tileset_final_64x64_0002s_0001_topmiddle30_grass_platform copy 5.asset using Guid(e4eda631b3d62f844bae7f400d8ba81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b01c1510e8478cbdb53088ab97a677d') in 0.008376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0023_1pixel_platform_01_tileset_final_64x64_0003_minilmiddle_grass_platform-copy.asset
-  artifactKey: Guid(84b5eacac0db001429624bb9c0a3f772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0023_1pixel_platform_01_tileset_final_64x64_0003_minilmiddle_grass_platform-copy.asset using Guid(84b5eacac0db001429624bb9c0a3f772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5a5ef354fe800f6b36f3381abb6b6a') in 0.009830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0011_1pixel_platform_01_tileset_final_64x64_0005s_0002_topmiddle_grass_platform-copy.asset
-  artifactKey: Guid(064812b654d72e7408ef103f8b97fe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0011_1pixel_platform_01_tileset_final_64x64_0005s_0002_topmiddle_grass_platform-copy.asset using Guid(064812b654d72e7408ef103f8b97fe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8a788877715411e76d57fdb5dc1652') in 0.009467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0015_1pixel_platform_01_tileset_final_64x64_0004s_0002_topmiddle_grass_platform-copy.asset
-  artifactKey: Guid(55f356ae97a7d4e44b65087626c95fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0015_1pixel_platform_01_tileset_final_64x64_0004s_0002_topmiddle_grass_platform-copy.asset using Guid(55f356ae97a7d4e44b65087626c95fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8244fc9948f64e37b0e404dbe6b514a') in 0.009744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0020_1pixel_platform_01_tileset_final_64x64_0003s_0002_topmiddle30_grass_platform-copy-4.asset
-  artifactKey: Guid(a847f7363ea02b74cb3bfa3d2e2efe69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0020_1pixel_platform_01_tileset_final_64x64_0003s_0002_topmiddle30_grass_platform-copy-4.asset using Guid(a847f7363ea02b74cb3bfa3d2e2efe69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc3fa4bea0704bb5d52b4dfd237fa4a') in 0.009239 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0009_1pixel_platform_01_tileset_final_64x64_0007_leftbottom_grass_platform.asset
-  artifactKey: Guid(0036f5a7b200dd14a94a2d741f6fe9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0009_1pixel_platform_01_tileset_final_64x64_0007_leftbottom_grass_platform.asset using Guid(0036f5a7b200dd14a94a2d741f6fe9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25495e95a85db3c6d7ca97fa735ee160') in 0.009471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0026_1pixel_platform_01_tileset_final_64x64_0002s_0000_topmiddle30_grass_platform-copy-8.asset
-  artifactKey: Guid(f7190184ef17b0f4bad9f356b05ba2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0026_1pixel_platform_01_tileset_final_64x64_0002s_0000_topmiddle30_grass_platform-copy-8.asset using Guid(f7190184ef17b0f4bad9f356b05ba2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418f35d95c69d9797748f75912102471') in 0.008901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0005_1pixel_platform_01_tileset_final_64x64_0011_middle_grass_platform.asset
-  artifactKey: Guid(110e6b37d7061cc41abea147bf28a377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0005_1pixel_platform_01_tileset_final_64x64_0011_middle_grass_platform.asset using Guid(110e6b37d7061cc41abea147bf28a377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2155bffbc34ac1266aeacf2f9c8fa39f') in 0.008019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0007_1pixel_platform_01_tileset_final_64x64_0009_rightbottom_grass_platform.asset
-  artifactKey: Guid(55642a48e04ab1c4599dd511f2a2345f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0007_1pixel_platform_01_tileset_final_64x64_0009_rightbottom_grass_platform.asset using Guid(55642a48e04ab1c4599dd511f2a2345f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ef704b24c6a4d4d8e29842942a3f2e') in 0.009045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0013_1pixel_platform_01_tileset_final_64x64_0005s_0000_topmiddle_grass_platform-copy-3.asset
-  artifactKey: Guid(dc795c324038b634ab1d9b7b8e0ccbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0013_1pixel_platform_01_tileset_final_64x64_0005s_0000_topmiddle_grass_platform-copy-3.asset using Guid(dc795c324038b634ab1d9b7b8e0ccbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cc983077911b64f5b583e6e7a5b6ae') in 0.008891 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0027_1pixel_platform_01_tileset_final_64x64_0002_minileft_grass_platform-copy.asset
-  artifactKey: Guid(d33ae082160befe4b9c63098bfeccf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0027_1pixel_platform_01_tileset_final_64x64_0002_minileft_grass_platform-copy.asset using Guid(d33ae082160befe4b9c63098bfeccf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e03ba54a2008577d39ea8f738505b93') in 0.010264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0008_1pixel_platform_01_tileset_final_64x64_0008_rightttop_grass_platform.asset
-  artifactKey: Guid(ec38aab358b5b604da9d06fc4d1aba24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0008_1pixel_platform_01_tileset_final_64x64_0008_rightttop_grass_platform.asset using Guid(ec38aab358b5b604da9d06fc4d1aba24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc9f9bfdf9a7160a92d2e6ee3cdcd31') in 0.009958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0012_1pixel_platform_01_tileset_final_64x64_0005s_0001_topmiddle45_grass_platform.asset
-  artifactKey: Guid(f9893896a0ac3f64ab49fd724bf0d0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0012_1pixel_platform_01_tileset_final_64x64_0005s_0001_topmiddle45_grass_platform.asset using Guid(f9893896a0ac3f64ab49fd724bf0d0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553be38cde7c6859ccc6d8f8c2b3b881') in 0.009548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0014_1pixel_platform_01_tileset_final_64x64_0005_singletop_grass_platform-copy-5.asset
-  artifactKey: Guid(1ecb74b1341afa147a0efc4f42f751cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0014_1pixel_platform_01_tileset_final_64x64_0005_singletop_grass_platform-copy-5.asset using Guid(1ecb74b1341afa147a0efc4f42f751cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfb0197290a2662fe9893ec67c7c2df') in 0.009953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0010_1pixel_platform_01_tileset_final_64x64_0006_lefttop_grass_platform.asset
-  artifactKey: Guid(369b31a74a02f224ba82ea357ef42b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0010_1pixel_platform_01_tileset_final_64x64_0006_lefttop_grass_platform.asset using Guid(369b31a74a02f224ba82ea357ef42b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc30f26937c2f74328e8cbe4029980c6') in 0.009756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0019_1pixel_platform_01_tileset_final_64x64_0003s_0003_topmiddle30_grass_platform-copy-3.asset
-  artifactKey: Guid(b3b8866219adb734fbfee40756750c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0019_1pixel_platform_01_tileset_final_64x64_0003s_0003_topmiddle30_grass_platform-copy-3.asset using Guid(b3b8866219adb734fbfee40756750c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5142983813f169b8b36002c33dcb26a9') in 0.008701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0024_1pixel_platform_01_tileset_final_64x64_0002s_0003_topmiddle30_grass_platform-copy-3.asset
-  artifactKey: Guid(62ed3ad02f32c65469d7b9bdd4128bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0024_1pixel_platform_01_tileset_final_64x64_0002s_0003_topmiddle30_grass_platform-copy-3.asset using Guid(62ed3ad02f32c65469d7b9bdd4128bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c0bc36b024ef3d27b05e6a41a8ec60') in 0.009710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.908760 seconds.
+  Time since last request: 0.000619 seconds.
   path: Assets/Tilesets/PlatformTileSet/PlatformTileSet.prefab
   artifactKey: Guid(b5a1ebfed00d0a44cbc537e1d499c44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/PlatformTileSet/PlatformTileSet.prefab using Guid(b5a1ebfed00d0a44cbc537e1d499c44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625ee17be85bc39954443ac77593521d') in 0.025953 seconds 
+Start importing Assets/Tilesets/PlatformTileSet/PlatformTileSet.prefab using Guid(b5a1ebfed00d0a44cbc537e1d499c44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9aa6195cb1ea445651cfd47f9467a24') in 0.203348 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 86.520816 seconds.
-  path: Assets/Environments/Lavabo.png
-  artifactKey: Guid(85dd39d651b8f284185c687801e6cfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Lavabo.png using Guid(85dd39d651b8f284185c687801e6cfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c906a993e4df6dd6db4a1dd163949c15') in 0.031102 seconds 
+  Time since last request: 0.000701 seconds.
+  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_1pixel_platform_01_tileset_final_64x64_0002s_0001_topmiddle30_grass_platform copy 5.asset
+  artifactKey: Guid(e4eda631b3d62f844bae7f400d8ba81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_1pixel_platform_01_tileset_final_64x64_0002s_0001_topmiddle30_grass_platform copy 5.asset using Guid(e4eda631b3d62f844bae7f400d8ba81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03259fae9d372716af37a151ee79e456') in 0.039050 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Environments/Lavabo2X.png
-  artifactKey: Guid(655f5f752a78b4045b1e978efca7d197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Lavabo2X.png using Guid(655f5f752a78b4045b1e978efca7d197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ade8bcad6f2cac1e2a92d944aa0f431') in 0.022873 seconds 
+  Time since last request: 0.000809 seconds.
+  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0018_1pixel_platform_01_tileset_final_64x64_0004_singlebottom_grass_platform-copy-5.asset
+  artifactKey: Guid(b43a528461c3fe04f9e0efe4d333e3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0018_1pixel_platform_01_tileset_final_64x64_0004_singlebottom_grass_platform-copy-5.asset using Guid(b43a528461c3fe04f9e0efe4d333e3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a3a37970440d5327892baf808729ee') in 0.041806 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Environments/LavaboIdle.png
-  artifactKey: Guid(ca978c9e3e5d6364c99e24c37a1474b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/LavaboIdle.png using Guid(ca978c9e3e5d6364c99e24c37a1474b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0860230f19e6524367bc2d9dee232c80') in 0.019541 seconds 
+  Time since last request: 0.000588 seconds.
+  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0023_1pixel_platform_01_tileset_final_64x64_0003_minilmiddle_grass_platform-copy.asset
+  artifactKey: Guid(84b5eacac0db001429624bb9c0a3f772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0023_1pixel_platform_01_tileset_final_64x64_0003_minilmiddle_grass_platform-copy.asset using Guid(84b5eacac0db001429624bb9c0a3f772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a82742f6860bedef2110a0769db2da') in 0.038598 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Environments/LavaboIdle2X.png
-  artifactKey: Guid(1b3bf363770e4994089024c889629530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/LavaboIdle2X.png using Guid(1b3bf363770e4994089024c889629530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6998b79284ae96e083548ca8ddad94') in 0.020271 seconds 
+  Time since last request: 0.000810 seconds.
+  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0011_1pixel_platform_01_tileset_final_64x64_0005s_0002_topmiddle_grass_platform-copy.asset
+  artifactKey: Guid(064812b654d72e7408ef103f8b97fe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0011_1pixel_platform_01_tileset_final_64x64_0005s_0002_topmiddle_grass_platform-copy.asset using Guid(064812b654d72e7408ef103f8b97fe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d776ad3047e1b704f7e8e1e96f7345c') in 0.036355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000821 seconds.
+  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0015_1pixel_platform_01_tileset_final_64x64_0004s_0002_topmiddle_grass_platform-copy.asset
+  artifactKey: Guid(55f356ae97a7d4e44b65087626c95fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0015_1pixel_platform_01_tileset_final_64x64_0004s_0002_topmiddle_grass_platform-copy.asset using Guid(55f356ae97a7d4e44b65087626c95fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68841459cb913c28759b15d0c76f715b') in 0.035730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000610 seconds.
+  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0020_1pixel_platform_01_tileset_final_64x64_0003s_0002_topmiddle30_grass_platform-copy-4.asset
+  artifactKey: Guid(a847f7363ea02b74cb3bfa3d2e2efe69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0020_1pixel_platform_01_tileset_final_64x64_0003s_0002_topmiddle30_grass_platform-copy-4.asset using Guid(a847f7363ea02b74cb3bfa3d2e2efe69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f5ebdd6b1409cf4eb9e97df987afad') in 0.037818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000608 seconds.
+  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0009_1pixel_platform_01_tileset_final_64x64_0007_leftbottom_grass_platform.asset
+  artifactKey: Guid(0036f5a7b200dd14a94a2d741f6fe9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0009_1pixel_platform_01_tileset_final_64x64_0007_leftbottom_grass_platform.asset using Guid(0036f5a7b200dd14a94a2d741f6fe9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee712a473f109454a2519a32849e4b2') in 0.042422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0026_1pixel_platform_01_tileset_final_64x64_0002s_0000_topmiddle30_grass_platform-copy-8.asset
+  artifactKey: Guid(f7190184ef17b0f4bad9f356b05ba2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0026_1pixel_platform_01_tileset_final_64x64_0002s_0000_topmiddle30_grass_platform-copy-8.asset using Guid(f7190184ef17b0f4bad9f356b05ba2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f88e0221f55b64f4a31b877bede7042') in 0.039308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0005_1pixel_platform_01_tileset_final_64x64_0011_middle_grass_platform.asset
+  artifactKey: Guid(110e6b37d7061cc41abea147bf28a377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0005_1pixel_platform_01_tileset_final_64x64_0011_middle_grass_platform.asset using Guid(110e6b37d7061cc41abea147bf28a377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbf73c4d42dd1c1313502565f5e0071') in 0.038429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0007_1pixel_platform_01_tileset_final_64x64_0009_rightbottom_grass_platform.asset
+  artifactKey: Guid(55642a48e04ab1c4599dd511f2a2345f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0007_1pixel_platform_01_tileset_final_64x64_0009_rightbottom_grass_platform.asset using Guid(55642a48e04ab1c4599dd511f2a2345f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622c1bf39bb55ddd80f2e745592cae28') in 0.039180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0013_1pixel_platform_01_tileset_final_64x64_0005s_0000_topmiddle_grass_platform-copy-3.asset
+  artifactKey: Guid(dc795c324038b634ab1d9b7b8e0ccbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0013_1pixel_platform_01_tileset_final_64x64_0005s_0000_topmiddle_grass_platform-copy-3.asset using Guid(dc795c324038b634ab1d9b7b8e0ccbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a066aa68fd6a237c2b1eb03076b6a1') in 0.040724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000687 seconds.
+  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0027_1pixel_platform_01_tileset_final_64x64_0002_minileft_grass_platform-copy.asset
+  artifactKey: Guid(d33ae082160befe4b9c63098bfeccf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0027_1pixel_platform_01_tileset_final_64x64_0002_minileft_grass_platform-copy.asset using Guid(d33ae082160befe4b9c63098bfeccf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc08e1ff1b8efae182de1e0fcd8b7756') in 0.041956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000926 seconds.
+  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0008_1pixel_platform_01_tileset_final_64x64_0008_rightttop_grass_platform.asset
+  artifactKey: Guid(ec38aab358b5b604da9d06fc4d1aba24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0008_1pixel_platform_01_tileset_final_64x64_0008_rightttop_grass_platform.asset using Guid(ec38aab358b5b604da9d06fc4d1aba24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d5a37ec8f7900949ccf308f97c7227') in 0.036604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000579 seconds.
+  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0012_1pixel_platform_01_tileset_final_64x64_0005s_0001_topmiddle45_grass_platform.asset
+  artifactKey: Guid(f9893896a0ac3f64ab49fd724bf0d0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0012_1pixel_platform_01_tileset_final_64x64_0005s_0001_topmiddle45_grass_platform.asset using Guid(f9893896a0ac3f64ab49fd724bf0d0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f792cb176eff6e33c53af322a362c31') in 0.038257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0014_1pixel_platform_01_tileset_final_64x64_0005_singletop_grass_platform-copy-5.asset
+  artifactKey: Guid(1ecb74b1341afa147a0efc4f42f751cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0014_1pixel_platform_01_tileset_final_64x64_0005_singletop_grass_platform-copy-5.asset using Guid(1ecb74b1341afa147a0efc4f42f751cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034f66bf5f1150b234b10d7b3ccbb8f9') in 0.035036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0010_1pixel_platform_01_tileset_final_64x64_0006_lefttop_grass_platform.asset
+  artifactKey: Guid(369b31a74a02f224ba82ea357ef42b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0010_1pixel_platform_01_tileset_final_64x64_0006_lefttop_grass_platform.asset using Guid(369b31a74a02f224ba82ea357ef42b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0a79f3a784dbf096f3233f8cbd1f76') in 0.034511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0019_1pixel_platform_01_tileset_final_64x64_0003s_0003_topmiddle30_grass_platform-copy-3.asset
+  artifactKey: Guid(b3b8866219adb734fbfee40756750c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0019_1pixel_platform_01_tileset_final_64x64_0003s_0003_topmiddle30_grass_platform-copy-3.asset using Guid(b3b8866219adb734fbfee40756750c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867bb34904b235702430eb71dad4aa0c') in 0.034085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0024_1pixel_platform_01_tileset_final_64x64_0002s_0003_topmiddle30_grass_platform-copy-3.asset
+  artifactKey: Guid(62ed3ad02f32c65469d7b9bdd4128bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/PlatformTileSet/TileSetBirleşmiş2Son_0024_1pixel_platform_01_tileset_final_64x64_0002s_0003_topmiddle30_grass_platform-copy-3.asset using Guid(62ed3ad02f32c65469d7b9bdd4128bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2b05a5b5b17ba6f58227ed8b5fdb9c') in 0.032871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.516601 seconds.
+  path: Assets/Sprites/AsiTabancasiV2Tercih.png
+  artifactKey: Guid(bdd92ec741d094541b49ec44ddd63ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AsiTabancasiV2Tercih.png using Guid(bdd92ec741d094541b49ec44ddd63ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a406d86a7d334f33e82f64bd473852ff') in 0.126912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000688 seconds.
+  path: Assets/Sprites/BioHazard.png
+  artifactKey: Guid(d551a6517fc2f3b47be0271ff86bc1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BioHazard.png using Guid(d551a6517fc2f3b47be0271ff86bc1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d0fb6f58b993429a112af87e1a2115') in 0.063782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000597 seconds.
+  path: Assets/Sprites/BookV2.png
+  artifactKey: Guid(0da043efed6de0b4a8793a6992d14201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BookV2.png using Guid(0da043efed6de0b4a8793a6992d14201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22214b1ea4398de44fbf72a4a0c9d5e1') in 0.056545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Sprites/BookForİnfo2X.png
+  artifactKey: Guid(a587d770c28bb7f4cb48c2573ac06043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BookForİnfo2X.png using Guid(a587d770c28bb7f4cb48c2573ac06043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f184763116f496c872b6324ee1a307d1') in 0.059087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Sprites/BookForİnfo.png
+  artifactKey: Guid(6468804c13a9bdb4e9673ce1de3a49bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BookForİnfo.png using Guid(6468804c13a9bdb4e9673ce1de3a49bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65ec75ccc2a290a7b3a6c2f4084b811') in 0.055927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000690 seconds.
+  path: Assets/Sprites/BookV22X.png
+  artifactKey: Guid(2e787edfef627314cafa6b533f22120b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BookV22X.png using Guid(2e787edfef627314cafa6b533f22120b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa660d8d6852071e0cd7a920e951434') in 0.058487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/Sprites/Panzehir2Xtercih.png
+  artifactKey: Guid(0acdea5d2c8290944b5882cc45cfabce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Panzehir2Xtercih.png using Guid(0acdea5d2c8290944b5882cc45cfabce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3a47189bf0bf714da22e66e23542cc') in 0.068452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001040 seconds.
+  path: Assets/Sprites/Syringe.png
+  artifactKey: Guid(a613630377bebb247b4bc829c333c671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Syringe.png using Guid(a613630377bebb247b4bc829c333c671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f392955d7ba479b3fc5013ea4333e22a') in 0.063623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/Sprites/Syringe2Xtercih.png
+  artifactKey: Guid(467ca788c0a5a924db4bbb6e86f6cd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Syringe2Xtercih.png using Guid(467ca788c0a5a924db4bbb6e86f6cd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e346b18f6630bbf2756f6d83fd08bb3f') in 0.068415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000709 seconds.
+  path: Assets/Sprites/Panzehir.png
+  artifactKey: Guid(08a161a6db424f448873aa73c36520fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Panzehir.png using Guid(08a161a6db424f448873aa73c36520fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969705e2846626613c356a6a83c63579') in 0.072966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000867 seconds.
+  path: Assets/Sprites/BioHazard2X.png
+  artifactKey: Guid(7f4a310d4625a114d93b7ed90f860995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BioHazard2X.png using Guid(7f4a310d4625a114d93b7ed90f860995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be4d985c63de8fcd52be52194df472f') in 0.057941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1547.083833 seconds.
+  path: Assets/Backgrounds/avm5X.png
+  artifactKey: Guid(01465c7241ab22a47abfc94fe32dd853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/avm5X.png using Guid(01465c7241ab22a47abfc94fe32dd853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc786a3ab79705a4fe52d6d9421eb7fe') in 0.081593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000783 seconds.
+  path: Assets/Backgrounds/avm6X.png
+  artifactKey: Guid(6e4db004304fad242bc5c5ec9511710a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/avm6X.png using Guid(6e4db004304fad242bc5c5ec9511710a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fef6fb80858427e430dd23a96bb3c1b') in 0.067905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000927 seconds.
+  path: Assets/Backgrounds/evler5_7x.png
+  artifactKey: Guid(bb58684abb529744ea23030e1d721783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/evler5_7x.png using Guid(bb58684abb529744ea23030e1d721783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc0f8824a9fc40e47c2d49193241d53') in 0.079110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/Backgrounds/bulutlar1_5X.png
+  artifactKey: Guid(73baa1fbcc8d3264e86d0720f787e2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/bulutlar1_5X.png using Guid(73baa1fbcc8d3264e86d0720f787e2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399a3b0621778ad07106e366d013c695') in 0.058159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/Backgrounds/evler(3)7X.png
+  artifactKey: Guid(9a73fe77bf080204c9b76a50b99883ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/evler(3)7X.png using Guid(9a73fe77bf080204c9b76a50b99883ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2e968fb23ff537f98901cb6174ed52') in 0.060824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/Backgrounds/bulut2_7X.png
+  artifactKey: Guid(e83d614b4d51478438d216230c1add61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/bulut2_7X.png using Guid(e83d614b4d51478438d216230c1add61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bb05adff518c1fceacc21a0765f773') in 0.055681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Backgrounds/bulut1_7X.png
+  artifactKey: Guid(1f8dc0f7e0aca19468a37e54296aa314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/bulut1_7X.png using Guid(1f8dc0f7e0aca19468a37e54296aa314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07babd0e2dc5469945792a4396a10a6d') in 0.054843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/Backgrounds/evler(4)6X.png
+  artifactKey: Guid(ad6f7b051e10c5248948cba4cbf45fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/evler(4)6X.png using Guid(ad6f7b051e10c5248948cba4cbf45fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2507a9aee5386154675b49ba97be77da') in 0.059074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000875 seconds.
+  path: Assets/Backgrounds/evler1_7X.png
+  artifactKey: Guid(4917e56ddae90044ba496c48916d9626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/evler1_7X.png using Guid(4917e56ddae90044ba496c48916d9626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b221b3ec09a363a70379f5994e54c50') in 0.061547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/Backgrounds/bulut2_5X.png
+  artifactKey: Guid(945d091aa905ca24196eb0e7a8276d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/bulut2_5X.png using Guid(945d091aa905ca24196eb0e7a8276d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ca7deeafadcab520e6116c34e7748d') in 0.053221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000594 seconds.
+  path: Assets/Backgrounds/evler(3)5X.png
+  artifactKey: Guid(1035fc158db33844490cdbead059f4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/evler(3)5X.png using Guid(1035fc158db33844490cdbead059f4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dee05deedb59d532b8dab165a92d32c') in 0.061254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Backgrounds/evler(3)6X.png
+  artifactKey: Guid(8ae6dc30b4adc6d44a988fc5bdc81f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/evler(3)6X.png using Guid(8ae6dc30b4adc6d44a988fc5bdc81f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80df1f1b959821b08fa0b716d568437') in 0.056981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Backgrounds/evler(4)7X.png
+  artifactKey: Guid(82f08d846be0dc34a88a4530b587bbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/evler(4)7X.png using Guid(82f08d846be0dc34a88a4530b587bbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133d07321d1b88c7cc30b14342f73736') in 0.059984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000579 seconds.
+  path: Assets/Backgrounds/evler1_6X.png
+  artifactKey: Guid(f4002ba047626364db98344093bb117d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/evler1_6X.png using Guid(f4002ba047626364db98344093bb117d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585a075f9a28c23d2ce731414257adf6') in 0.055920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000638 seconds.
+  path: Assets/Backgrounds/evler1_5X.png
+  artifactKey: Guid(8216966246262e94aaa297daf51a671e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/evler1_5X.png using Guid(8216966246262e94aaa297daf51a671e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821f9dbd0d8914b402997d197a4068a5') in 0.056777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Backgrounds/evler5_5x.png
+  artifactKey: Guid(c2ed08d4e2b9cc941a03edfe32828883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/evler5_5x.png using Guid(c2ed08d4e2b9cc941a03edfe32828883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1dd6fe46e8e25dda1f3e667c632598d') in 0.053802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/Backgrounds/avm7X.png
+  artifactKey: Guid(968fcc8b24e53a04c94bcd7d60678b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/avm7X.png using Guid(968fcc8b24e53a04c94bcd7d60678b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd25ed11602898cbb00d52e758d2cff') in 0.055725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000645 seconds.
+  path: Assets/Backgrounds/bulutlar1_6X.png
+  artifactKey: Guid(780ccd111dff3794a8031297c447c669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/bulutlar1_6X.png using Guid(780ccd111dff3794a8031297c447c669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1464e7750efafee6907d70fda703e062') in 0.051397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Backgrounds/evler5_6x.png
+  artifactKey: Guid(4d26b0f8cf7ae4943bab7f66d11d7717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/evler5_6x.png using Guid(4d26b0f8cf7ae4943bab7f66d11d7717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699383f8a1170dfc5f80b480e8f65d71') in 0.054288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/Backgrounds/evler6_5X.png
+  artifactKey: Guid(8f1b30cbf7603b54e95ce44b914776a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/evler6_5X.png using Guid(8f1b30cbf7603b54e95ce44b914776a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5c055891b8b36650569fb3f2177930') in 0.050260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Backgrounds/bulut1_6X.png
+  artifactKey: Guid(62d1b7a6db601fc41944cd0853fb8222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/bulut1_6X.png using Guid(62d1b7a6db601fc41944cd0853fb8222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145f3ea0d1f4f97805d8a3705c85981d') in 0.053379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/Backgrounds/bulut1_5X.png
+  artifactKey: Guid(74733fa22eecf1546aefea9285c0e354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/bulut1_5X.png using Guid(74733fa22eecf1546aefea9285c0e354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9270979f8e2039c44d49d4f0f7a902c9') in 0.044999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/Backgrounds/bulutlar1_7X.png
+  artifactKey: Guid(b58922930f2833249b661a5694b5fc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/bulutlar1_7X.png using Guid(b58922930f2833249b661a5694b5fc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffb422595586ae2e293675d40672626') in 0.050056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Backgrounds/evler(4)5X.png
+  artifactKey: Guid(b4f6b944c2dffa44d858f7ff00fdc198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/evler(4)5X.png using Guid(b4f6b944c2dffa44d858f7ff00fdc198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab3abf1215fd4c76a420d37e568667c') in 0.051094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Backgrounds/bulut2_6X.png
+  artifactKey: Guid(5e9ba0d0b0b8b9c459de78266d4876cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/bulut2_6X.png using Guid(5e9ba0d0b0b8b9c459de78266d4876cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b119316358195c1e57128f297ed8f240') in 0.049257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.264382 seconds.
+  path: Assets/Backgrounds/evler6_6X.png
+  artifactKey: Guid(899b8ac69d2d2264fadb6a4eff236ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/evler6_6X.png using Guid(899b8ac69d2d2264fadb6a4eff236ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2faacaf6c85eedd81ca7b81cf8e0b303') in 0.055020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000594 seconds.
+  path: Assets/Backgrounds/evler7_7X.png
+  artifactKey: Guid(abdd6a9e77b853649b722627f3080c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/evler7_7X.png using Guid(abdd6a9e77b853649b722627f3080c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aff6303254110bd4754c81a2ee80516') in 0.051570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000946 seconds.
+  path: Assets/Backgrounds/evler7_5X.png
+  artifactKey: Guid(7459e2181cdf19e42829a60834643ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/evler7_5X.png using Guid(7459e2181cdf19e42829a60834643ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e581a307cee9bb697a4e0d82b6947f') in 0.053398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/Backgrounds/Fabrika7X.png
+  artifactKey: Guid(510c216a2a565fa4daa51d818ce580df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Fabrika7X.png using Guid(510c216a2a565fa4daa51d818ce580df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c954ee713a2b6db497cdc1809cc2b9ce') in 0.077088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Backgrounds/gunes6x.png
+  artifactKey: Guid(86d024e7714ce4c4286817e0630a0644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/gunes6x.png using Guid(86d024e7714ce4c4286817e0630a0644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a272b7b9b8dd81cbb823fa566f693f9') in 0.056699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000618 seconds.
+  path: Assets/Backgrounds/Fabrika5X.png
+  artifactKey: Guid(379e13dc2ce5cc64b9cb06059329bed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Fabrika5X.png using Guid(379e13dc2ce5cc64b9cb06059329bed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9484c3b34f8e5e2dd9977a0f55603f12') in 0.059100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/Backgrounds/fabrika1_5X.png
+  artifactKey: Guid(4ca750a4fe5c7e24b92f3dc1ece2e256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/fabrika1_5X.png using Guid(4ca750a4fe5c7e24b92f3dc1ece2e256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1f2a02228e592187d8f72ed68b0909') in 0.053674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Backgrounds/evler6_7X.png
+  artifactKey: Guid(0ab6d7891c066fa44ab15f1b038ac70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/evler6_7X.png using Guid(0ab6d7891c066fa44ab15f1b038ac70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d122760b5a599f3e6accf8db3461b6d') in 0.048497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Backgrounds/hastaneic5x.png
+  artifactKey: Guid(09d7ffae747e65d4ba8f6118cb7fe774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hastaneic5x.png using Guid(09d7ffae747e65d4ba8f6118cb7fe774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e38e41c5be5faa2063c372fd6037f3a') in 0.054111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/Backgrounds/hastanedısgunduz7X.png
+  artifactKey: Guid(362525a6dabc85648823ef7d3907ba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hastanedısgunduz7X.png using Guid(362525a6dabc85648823ef7d3907ba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac5efb60514dc0eb3cec0eb54f29062') in 0.096071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000664 seconds.
+  path: Assets/Backgrounds/sehir6X.png
+  artifactKey: Guid(47c407733ab17a740aeed620de3e9d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sehir6X.png using Guid(47c407733ab17a740aeed620de3e9d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5befe03f86ec0a82a4ee70ea0d9c022a') in 0.052055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000795 seconds.
+  path: Assets/Backgrounds/laboratuvar7X.png
+  artifactKey: Guid(cb534f16eab7dbb46bd3d91ad141a76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/laboratuvar7X.png using Guid(cb534f16eab7dbb46bd3d91ad141a76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7232111bc8bf38ecbb836b74355f044d') in 0.057104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000654 seconds.
+  path: Assets/Backgrounds/trees5X.png
+  artifactKey: Guid(a954f76879aaa984a85a8e78fe0a1ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/trees5X.png using Guid(a954f76879aaa984a85a8e78fe0a1ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef1f6eec4048ea7661bfaaa463604de') in 0.061531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000790 seconds.
+  path: Assets/Backgrounds/sehir5X.png
+  artifactKey: Guid(d7e298aae6bbc5248af17da5a6627ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sehir5X.png using Guid(d7e298aae6bbc5248af17da5a6627ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ec2c1e4bad4bf472c3ac2bd959a52f') in 0.057969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Backgrounds/evler7_6X.png
+  artifactKey: Guid(a55340d3b8fc3fa43b26224bd865ea07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/evler7_6X.png using Guid(a55340d3b8fc3fa43b26224bd865ea07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52c1c41b72c1ba7058517d5abc1bbd9') in 0.053748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000643 seconds.
+  path: Assets/Backgrounds/gunes7x.png
+  artifactKey: Guid(800eff1434f11094388b58b8928539a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/gunes7x.png using Guid(800eff1434f11094388b58b8928539a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca7baa63fae44e281e8bd6efac1aeb1') in 0.058383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000577 seconds.
+  path: Assets/Backgrounds/hastaneic7x.png
+  artifactKey: Guid(ef691ce64df59f144bf47aefe4e5c044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hastaneic7x.png using Guid(ef691ce64df59f144bf47aefe4e5c044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a07844ac9be71a594aa327dbdbe1db') in 0.068176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Backgrounds/laboratuvar5X.png
+  artifactKey: Guid(5d3ae49df71bcbb4caffcd1d0b7fccc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/laboratuvar5X.png using Guid(5d3ae49df71bcbb4caffcd1d0b7fccc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7a772eae985b27819e3556759810cd') in 0.059934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000899 seconds.
+  path: Assets/Backgrounds/fabrika1_6X.png
+  artifactKey: Guid(08678c944df3a634fbdf19161304991f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/fabrika1_6X.png using Guid(08678c944df3a634fbdf19161304991f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ac18479afc2295b37c5c215d9354d3') in 0.055200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000663 seconds.
+  path: Assets/Backgrounds/hastanedisgece5X.png
+  artifactKey: Guid(035a975bd5afbbf47b479a6f15058cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hastanedisgece5X.png using Guid(035a975bd5afbbf47b479a6f15058cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b871ae9247782ce4529bc42a522ecde1') in 0.078010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000902 seconds.
+  path: Assets/Backgrounds/hastaneic6x.png
+  artifactKey: Guid(dfb45512a862f7f46a352d08e8ff708f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hastaneic6x.png using Guid(dfb45512a862f7f46a352d08e8ff708f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb3e6e298f0e2e19cb280940e4ef823') in 0.065321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Backgrounds/gunes5x.png
+  artifactKey: Guid(130ee0f4601ac004fa779d610c45cbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/gunes5x.png using Guid(130ee0f4601ac004fa779d610c45cbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49222c1d1d4700f4d6a53a021d5a82dd') in 0.054658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000632 seconds.
+  path: Assets/Backgrounds/sehir7X.png
+  artifactKey: Guid(21085bf7b82c8744cba1c056d127aea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sehir7X.png using Guid(21085bf7b82c8744cba1c056d127aea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ed6b302bc3ecb56468fe60dc9bdc10') in 0.053223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Backgrounds/hastanedisgece7X.png
+  artifactKey: Guid(52fb53e56cb8c444aba1aa4ea64d9352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hastanedisgece7X.png using Guid(52fb53e56cb8c444aba1aa4ea64d9352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c501c1085ede00bd209836cd29fc9d0a') in 0.062325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Backgrounds/hastanedısgunduz6X.png
+  artifactKey: Guid(5034b1483d5d4a14389786857c2e9bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hastanedısgunduz6X.png using Guid(5034b1483d5d4a14389786857c2e9bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27397358a696241a8f9d5f436fbe9b85') in 0.071243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/Backgrounds/Fabrika6X.png
+  artifactKey: Guid(f20772159bab1dd4ca4e72b85fa4acd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Fabrika6X.png using Guid(f20772159bab1dd4ca4e72b85fa4acd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a55c80d6adbced96d715bef58326d1') in 0.061925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Backgrounds/hastanedısgunduzX.png
+  artifactKey: Guid(2b52a891a92f778499c098d34a3cd708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hastanedısgunduzX.png using Guid(2b52a891a92f778499c098d34a3cd708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6963cc56c89e3a2e0ffd138fde268201') in 0.070524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Assets/Backgrounds/trees7X.png
+  artifactKey: Guid(2698d03e93a853a4caa0562f8f926361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/trees7X.png using Guid(2698d03e93a853a4caa0562f8f926361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9676a097a7d895627aaa1ce290531c61') in 0.058607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000690 seconds.
+  path: Assets/Backgrounds/hastanedisgece6X.png
+  artifactKey: Guid(08b6ea1264ce35f4d9f6bce5ddb8bc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hastanedisgece6X.png using Guid(08b6ea1264ce35f4d9f6bce5ddb8bc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddcf4ae3b18f93b902d9572c93a4f45') in 0.066588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Backgrounds/laboratuvar6X.png
+  artifactKey: Guid(9470e6e08992fd54d850452cc079f6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/laboratuvar6X.png using Guid(9470e6e08992fd54d850452cc079f6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489cd1457f4c7f0d711aa00cae705421') in 0.054202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000686 seconds.
+  path: Assets/Backgrounds/fabrika1_7X.png
+  artifactKey: Guid(332ab2530bb230b48a4433c1f16c4471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/fabrika1_7X.png using Guid(332ab2530bb230b48a4433c1f16c4471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbaeccd51a2aadbbcb7144146828d81') in 0.056070 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
