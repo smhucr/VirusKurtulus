@@ -1,123 +1,123 @@
 Using pre-set license
-Built from '2020.3/release' branch; Version is '2020.3.31f1 (6b54b7616050) revision 7034039'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Enterprise' Language: 'tr' Physical Memory: 16173 MB
+Built from '2020.3/staging' branch; Version is '2020.3.40f1 (ba48d4efcef1) revision 12208340'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'tr' Physical Memory: 16222 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.31f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.40f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Alperen Ates/Desktop/UNITY/VirusKurtulus/GameVirusKurtulus
+C:/Users/smhuc/Desktop/Unity/GameVirusKurtulusYedek
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54601
-Successfully changed project path to: C:/Users/Alperen Ates/Desktop/UNITY/VirusKurtulus/GameVirusKurtulus
-C:/Users/Alperen Ates/Desktop/UNITY/VirusKurtulus/GameVirusKurtulus
+55751
+Successfully changed project path to: C:/Users/smhuc/Desktop/Unity/GameVirusKurtulusYedek
+C:/Users/smhuc/Desktop/Unity/GameVirusKurtulusYedek
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 44.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.31f1 (6b54b7616050)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Alperen Ates/Desktop/UNITY/VirusKurtulus/GameVirusKurtulus/Assets
+Initialize engine version: 2020.3.40f1 (ba48d4efcef1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/smhuc/Desktop/Unity/GameVirusKurtulusYedek/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
     Vendor:   
-    VRAM:     3962 MB
-    Driver:   30.0.15.1259
+    VRAM:     3949 MB
+    Driver:   31.0.15.2737
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.40f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001515 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001979 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 77.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.662 seconds
+- Completed reload, in  0.550 seconds
 Domain Reload Profiling:
-	ReloadAssembly (662ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (550ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (526ms)
-			LoadAssemblies (56ms)
+		EndReloadAssembly (421ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (147ms)
+			SetupTypeCache (136ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (240ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (160ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (106ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003161 seconds.
+Registered in 0.003299 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.293 seconds
+- Completed reload, in  1.029 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1294ms)
-		BeginReloadAssembly (168ms)
+	ReloadAssembly (1030ms)
+		BeginReloadAssembly (140ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1061ms)
-			LoadAssemblies (98ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (832ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (361ms)
+			SetupTypeCache (271ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (404ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (322ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (59ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (222ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.0 MB.
-System memory in use after: 96.9 MB.
+Unloading 2231 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.4 MB.
+System memory in use after: 104.4 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2631.
-Total: 3.426700 ms (FindLiveObjects: 0.193000 ms CreateObjectMapping: 0.105100 ms MarkObjects: 2.989400 ms  DeleteObjects: 0.138200 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2680.
+Total: 2.567200 ms (FindLiveObjects: 0.157600 ms CreateObjectMapping: 0.110300 ms MarkObjects: 2.169900 ms  DeleteObjects: 0.128700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,415 +131,246 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Characters/Kadin_1_Yurume_3x.png
-  artifactKey: Guid(58c0d481f202ccf4f8523741cb4f5566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_1_Yurume_3x.png using Guid(58c0d481f202ccf4f8523741cb4f5566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ee2c85f2349da2998c10dea33a3e73') in 0.136243 seconds 
+  path: Assets/Tilesets
+  artifactKey: Guid(7204e7b642b5e3e468c3fe020d9f213a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets using Guid(7204e7b642b5e3e468c3fe020d9f213a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffb00d67683032a8bf62e51a856364d') in 0.008820 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Characters/Diger_Erkek_Doktor_Kosma_3x.png
-  artifactKey: Guid(7a123c9c8eea6f64aa78800e6c5d5381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Diger_Erkek_Doktor_Kosma_3x.png using Guid(7a123c9c8eea6f64aa78800e6c5d5381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc49bef7076a21acbfa47933865f7432') in 0.021705 seconds 
+  Time since last request: 2.901952 seconds.
+  path: Assets/Sprites/BookForİnfo.png
+  artifactKey: Guid(6468804c13a9bdb4e9673ce1de3a49bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BookForİnfo.png using Guid(6468804c13a9bdb4e9673ce1de3a49bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b2a587e6d91221064d51c0c941c0a7') in 0.127052 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Characters/Diger_Erkek_Doktor_YerdeUzanmis_3x.png
-  artifactKey: Guid(c0a5ecde4e456654a9f9709c3bd84826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Diger_Erkek_Doktor_YerdeUzanmis_3x.png using Guid(c0a5ecde4e456654a9f9709c3bd84826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715cd84621f12e5887c294ad3b9f96e3') in 0.017813 seconds 
+  Time since last request: 0.000186 seconds.
+  path: Assets/Sprites/VirusV22X.png
+  artifactKey: Guid(6296e6c1e14b35a4fa142f9b094b859b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/VirusV22X.png using Guid(6296e6c1e14b35a4fa142f9b094b859b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9bcd20bac59b2e3cf5e7124912e968') in 0.032872 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Characters/Diger_Erkek_Doktor_Kosma_2x.png
-  artifactKey: Guid(0c15fbc841449b24d97144df7cc002e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Diger_Erkek_Doktor_Kosma_2x.png using Guid(0c15fbc841449b24d97144df7cc002e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59f3c3b77a0fb47b77ca203e39eee98') in 0.021566 seconds 
+  Time since last request: 0.000167 seconds.
+  path: Assets/Sprites/BookV2.png
+  artifactKey: Guid(0da043efed6de0b4a8793a6992d14201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BookV2.png using Guid(0da043efed6de0b4a8793a6992d14201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b021d8afe05c12a737501d11090929') in 0.021643 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Characters/Erkek_2_Yurume_Iyılesmis_4x.png
-  artifactKey: Guid(6e515cd5a82aa8d489b2c7185047e21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_2_Yurume_Iyılesmis_4x.png using Guid(6e515cd5a82aa8d489b2c7185047e21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7706b4181a6c3e1149468bcb699ca9cf') in 0.017913 seconds 
+  Time since last request: 0.000219 seconds.
+  path: Assets/Sprites/BookForİnfo2X.png
+  artifactKey: Guid(a587d770c28bb7f4cb48c2573ac06043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BookForİnfo2X.png using Guid(a587d770c28bb7f4cb48c2573ac06043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54585af54eb2468f2e9199ac158d1105') in 0.020802 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Characters/Kadın_Doktor_Kosma_2x.png
-  artifactKey: Guid(20a5446e0e89203448e8449260b31208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadın_Doktor_Kosma_2x.png using Guid(20a5446e0e89203448e8449260b31208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83f528536c49357eafbe9abd7333166') in 0.018103 seconds 
+  Time since last request: 0.000180 seconds.
+  path: Assets/Sprites/BookV22X.png
+  artifactKey: Guid(2e787edfef627314cafa6b533f22120b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BookV22X.png using Guid(2e787edfef627314cafa6b533f22120b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b795bbf58b757f696fcf66851f1b67a') in 0.024965 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Characters/Diger_Kadin_Doktor_Idle_2x.png
-  artifactKey: Guid(be896a59246f99f448d191084c62e650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Diger_Kadin_Doktor_Idle_2x.png using Guid(be896a59246f99f448d191084c62e650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8def57d512b1caf2fab10ddba89dcdbf') in 0.019509 seconds 
+  Time since last request: 0.000233 seconds.
+  path: Assets/Sprites/Virus.png
+  artifactKey: Guid(2501f8c071a34cb43b0d5d989e410e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Virus.png using Guid(2501f8c071a34cb43b0d5d989e410e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a7f799ca29966bdca7e00c8d3cabfb') in 0.022059 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Characters/Kadin_1_Idle_3x.png
-  artifactKey: Guid(175777193d5e5bf4e9015270f3ac4818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_1_Idle_3x.png using Guid(175777193d5e5bf4e9015270f3ac4818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8b9e269c8f500a2f8141b032612786') in 0.017744 seconds 
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sprites/Panzehir2Xtercih.png
+  artifactKey: Guid(0acdea5d2c8290944b5882cc45cfabce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Panzehir2Xtercih.png using Guid(0acdea5d2c8290944b5882cc45cfabce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee45475a71f809e5f2d60da0eb261584') in 0.020392 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Characters/Erkek_1_Yurume_Saglikli_4x.png
-  artifactKey: Guid(a6a713ddc92a97b41afa9795b876271d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_1_Yurume_Saglikli_4x.png using Guid(a6a713ddc92a97b41afa9795b876271d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e372737d01b1b06b72f4105167930cf') in 0.018021 seconds 
+  Time since last request: 0.000207 seconds.
+  path: Assets/Sprites/Syringe.png
+  artifactKey: Guid(a613630377bebb247b4bc829c333c671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Syringe.png using Guid(a613630377bebb247b4bc829c333c671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4e0e3791fc193cef46ea9460631229') in 0.021523 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/Characters/Diger_Kadın_Doktor_Kosma_2x.png
-  artifactKey: Guid(901e8dbba8934a94eaaf7a5f2dfd77a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Diger_Kadın_Doktor_Kosma_2x.png using Guid(901e8dbba8934a94eaaf7a5f2dfd77a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdec7758e9322024ffa318c1ac9e020') in 0.022998 seconds 
+  Time since last request: 0.000210 seconds.
+  path: Assets/Sprites/Syringe2Xtercih.png
+  artifactKey: Guid(467ca788c0a5a924db4bbb6e86f6cd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Syringe2Xtercih.png using Guid(467ca788c0a5a924db4bbb6e86f6cd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25742d62e3d1a78a74efcbcb58a5f800') in 0.020769 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Characters/Kadin_Doktor_Ziplama_2x.png
-  artifactKey: Guid(00f2ba99e0b70444c83f7f5165acf57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_Doktor_Ziplama_2x.png using Guid(00f2ba99e0b70444c83f7f5165acf57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013286907dddffb161c0bbeea558f051') in 0.022539 seconds 
+  Time since last request: 0.000366 seconds.
+  path: Assets/Sprites/Panzehir.png
+  artifactKey: Guid(08a161a6db424f448873aa73c36520fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Panzehir.png using Guid(08a161a6db424f448873aa73c36520fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25438092b0fdce7ad026a618b3684728') in 0.021666 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Characters/Kadin_Doktor_Ziplama_4x.png
-  artifactKey: Guid(977ea5e9ff0e62546858a335bb3b3884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_Doktor_Ziplama_4x.png using Guid(977ea5e9ff0e62546858a335bb3b3884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8426b938d00cc763a183bf700ad0b1c') in 0.023699 seconds 
+  Time since last request: 0.923973 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0000_3pixel_platform_01_tileset_final_64x64_0001s_0000_Group-3.png
+  artifactKey: Guid(a02acb1132a1c27448ab2c547dfeecc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0000_3pixel_platform_01_tileset_final_64x64_0001s_0000_Group-3.png using Guid(a02acb1132a1c27448ab2c547dfeecc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6556a4bf764fd6211c5452aeb191c5') in 0.025815 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Characters/Erkek_Doktor_Kosma_4x.png
-  artifactKey: Guid(ff0bad9cc069c75459dd96ea648721f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_Doktor_Kosma_4x.png using Guid(ff0bad9cc069c75459dd96ea648721f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0743154b42ed00ea02005d4f06d8bf79') in 0.019318 seconds 
+  Time since last request: 0.000169 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0015_1pixel_platform_01_tileset_final_64x64_0004s_0002_topmiddle_grass_platform-copy.png
+  artifactKey: Guid(1080873d935929546a8b5442f2cb87a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0015_1pixel_platform_01_tileset_final_64x64_0004s_0002_topmiddle_grass_platform-copy.png using Guid(1080873d935929546a8b5442f2cb87a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87c789c14c442da6456b0f2fdc1af26') in 0.015254 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Characters/Diger_Erkek_Doktor_YerdeUzanmis_2x.png
-  artifactKey: Guid(3f2bff040c6963b498238fdca1dee9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Diger_Erkek_Doktor_YerdeUzanmis_2x.png using Guid(3f2bff040c6963b498238fdca1dee9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312fab3931a19774e8902995bea08f2f') in 0.017937 seconds 
+  Time since last request: 0.000194 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0024_1pixel_platform_01_tileset_final_64x64_0002s_0003_topmiddle30_grass_platform-copy-3.png
+  artifactKey: Guid(8eecf0857cfa0574f909287ed50e0c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0024_1pixel_platform_01_tileset_final_64x64_0002s_0003_topmiddle30_grass_platform-copy-3.png using Guid(8eecf0857cfa0574f909287ed50e0c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb41aebde76ee9125125a5dee685e85f') in 0.016754 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Characters/Kadin_2_Yurume_Iyılesmis_3x.png
-  artifactKey: Guid(4761b27ddefe1db46aaf48265baf5fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_2_Yurume_Iyılesmis_3x.png using Guid(4761b27ddefe1db46aaf48265baf5fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b7e6ac8da5c93a8d827cf0a18985cf') in 0.021786 seconds 
+  Time since last request: 0.000185 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0023_1pixel_platform_01_tileset_final_64x64_0003_minilmiddle_grass_platform-copy.png
+  artifactKey: Guid(7cca7074bfb0cc74cba5c2c491f9920b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0023_1pixel_platform_01_tileset_final_64x64_0003_minilmiddle_grass_platform-copy.png using Guid(7cca7074bfb0cc74cba5c2c491f9920b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889ab33ce196cea1820ccfb20100cc3d') in 0.015953 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Characters/Erkek_2_Kosma_2x.png
-  artifactKey: Guid(6df4fa71f9c25d44aad1c178287360bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_2_Kosma_2x.png using Guid(6df4fa71f9c25d44aad1c178287360bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3782c61d469acab7091ac570db37d50') in 0.022430 seconds 
+  Time since last request: 0.000169 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0002_2pixel_platform_01_tileset_final_64x64_0000s_0002_moveable_right_platform.png
+  artifactKey: Guid(597d385f48cf99641b481f4187964d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0002_2pixel_platform_01_tileset_final_64x64_0000s_0002_moveable_right_platform.png using Guid(597d385f48cf99641b481f4187964d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d06e23a67f455961d887da9a28e1e9') in 0.020036 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Characters/Erkek_1_Yurume_Saglikli_3x.png
-  artifactKey: Guid(9a00ec6301624c34ab73ded9b622a1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_1_Yurume_Saglikli_3x.png using Guid(9a00ec6301624c34ab73ded9b622a1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a33ec973102fb34caf62d64cf18f37') in 0.023066 seconds 
+  Time since last request: 0.000194 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0007_1pixel_platform_01_tileset_final_64x64_0009_rightbottom_grass_platform.png
+  artifactKey: Guid(0d01202c745375640ab6ca75e181d183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0007_1pixel_platform_01_tileset_final_64x64_0009_rightbottom_grass_platform.png using Guid(0d01202c745375640ab6ca75e181d183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc4e0ab2ce78b3241ec3e523afde3ea') in 0.016324 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Characters/Kadin_2_Yurume_Iyılesmis_2x.png
-  artifactKey: Guid(1c72ca02985a23a448f951eeb610ff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_2_Yurume_Iyılesmis_2x.png using Guid(1c72ca02985a23a448f951eeb610ff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ce846cb4357aae1f909834ef844321') in 0.021882 seconds 
+  Time since last request: 0.000196 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0016_1pixel_platform_01_tileset_final_64x64_0004s_0001_topmiddle45_grass_platform.png
+  artifactKey: Guid(945956a6ad78ed741a389b544509638c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0016_1pixel_platform_01_tileset_final_64x64_0004s_0001_topmiddle45_grass_platform.png using Guid(945956a6ad78ed741a389b544509638c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb75ad1015bffe3bba07aedbb2acd50') in 0.014390 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/Characters/Erkek_2_Idle_3x.png
-  artifactKey: Guid(5797f49284e6a3c46a8b9d11ed7554fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_2_Idle_3x.png using Guid(5797f49284e6a3c46a8b9d11ed7554fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b71bc4d5b4a5c0a9aac994167084be1') in 0.021593 seconds 
+  Time since last request: 0.000179 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0017_1pixel_platform_01_tileset_final_64x64_0004s_0000_topmiddle_grass_platform-copy-3.png
+  artifactKey: Guid(94d43a5de5253a54b947f50a274454fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0017_1pixel_platform_01_tileset_final_64x64_0004s_0000_topmiddle_grass_platform-copy-3.png using Guid(94d43a5de5253a54b947f50a274454fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f110270813a673465f1abaf22977f7') in 0.015210 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Characters/Kadın_Doktor_Idle_2x.png
-  artifactKey: Guid(8b06217c9f1803142a50d909e57e9805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadın_Doktor_Idle_2x.png using Guid(8b06217c9f1803142a50d909e57e9805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121e1527a7a9bca1101f1b5ac13d91e4') in 0.021186 seconds 
+  Time since last request: 0.000294 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0028_1pixel_platform_01_tileset_final_64x64_0001_minileft_grass_platform-copy-2.png
+  artifactKey: Guid(9639d5da105a6214eb1e048f6e050158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0028_1pixel_platform_01_tileset_final_64x64_0001_minileft_grass_platform-copy-2.png using Guid(9639d5da105a6214eb1e048f6e050158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86169606026b043913813564571cc82e') in 0.016514 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Characters/Erkek_1_Yurume_3x.png
-  artifactKey: Guid(d1e8192a8fa980c498343d480fae6af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_1_Yurume_3x.png using Guid(d1e8192a8fa980c498343d480fae6af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db46b362562721bff56b240234e932f0') in 0.019887 seconds 
+  Time since last request: 0.000172 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0018_1pixel_platform_01_tileset_final_64x64_0004_singlebottom_grass_platform-copy-5.png
+  artifactKey: Guid(16d312314e6034f448a3b618cd6bab1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0018_1pixel_platform_01_tileset_final_64x64_0004_singlebottom_grass_platform-copy-5.png using Guid(16d312314e6034f448a3b618cd6bab1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8717438cf30d4e8154d9be5fe285e94d') in 0.015201 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Characters/Diger_Erkek_Doktor_Kosma_4x.png
-  artifactKey: Guid(c4b4818be3e8b874d828c0d7cbc47605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Diger_Erkek_Doktor_Kosma_4x.png using Guid(c4b4818be3e8b874d828c0d7cbc47605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4393edcb12a2792ce9b278fceedbe86') in 0.021932 seconds 
+  Time since last request: 0.000180 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0008_1pixel_platform_01_tileset_final_64x64_0008_rightttop_grass_platform.png
+  artifactKey: Guid(d12750af5ab9d9847920a856ddc744f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0008_1pixel_platform_01_tileset_final_64x64_0008_rightttop_grass_platform.png using Guid(d12750af5ab9d9847920a856ddc744f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e315e58a0733a37d57684d9db8fe7a1') in 0.015345 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/Characters/Erkek_Doktor_Zıplama_4x.png
-  artifactKey: Guid(1b7f9d125ffdbb14db435197bb9aaa0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_Doktor_Zıplama_4x.png using Guid(1b7f9d125ffdbb14db435197bb9aaa0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc2547676e5bc21d65afd17b26c8659') in 0.020223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000591 seconds.
-  path: Assets/Characters/Kadin_1_Idle_2x.png
-  artifactKey: Guid(738dda50eac43384db4aab55293d9f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_1_Idle_2x.png using Guid(738dda50eac43384db4aab55293d9f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32562c9158a40c36a4cae5b2463c352f') in 0.128176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/Characters/Kadin_1_Yurume_Iyılesmis_2x.png
-  artifactKey: Guid(3ed29248684222e4db55b06db63a56d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_1_Yurume_Iyılesmis_2x.png using Guid(3ed29248684222e4db55b06db63a56d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9e197c31e9604194e3e47075fc886b') in 0.034460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Characters/Erkek_1_Idle_2x.png
-  artifactKey: Guid(702d669624edfa64ca0bb4cf0b3abf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_1_Idle_2x.png using Guid(702d669624edfa64ca0bb4cf0b3abf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eae3cb6424b0e0a5f820bf4bd5c6c4c') in 0.036490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/Characters/Kadın_Doktor_Idle_3x.png
-  artifactKey: Guid(1519b08cdb38d264d8e448290211ee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadın_Doktor_Idle_3x.png using Guid(1519b08cdb38d264d8e448290211ee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b9049bf1902934b8461088cad661f0') in 0.039657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Characters/Kadin_Doktor_Ziplama_3x.png
-  artifactKey: Guid(c785572d826389747a255ee563a8ced5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_Doktor_Ziplama_3x.png using Guid(c785572d826389747a255ee563a8ced5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e288d3b8100fc0c1ba34f10daeb7bf5') in 0.026457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Characters/Kadın_Doktor_Kosma_3x.png
-  artifactKey: Guid(19fd002bbc88dd747951febf58a23d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadın_Doktor_Kosma_3x.png using Guid(19fd002bbc88dd747951febf58a23d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65250f75d47be9b10e15b1dac51fd93f') in 0.022112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Characters/Kadin_2_Idle_2x.png
-  artifactKey: Guid(ed60a59e770c5934e8f59fc1948d5937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_2_Idle_2x.png using Guid(ed60a59e770c5934e8f59fc1948d5937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9207a37cd1920c2fdb451ad8f185a8') in 0.016533 seconds 
+  Time since last request: 0.000187 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0005_1pixel_platform_01_tileset_final_64x64_0011_middle_grass_platform.png
+  artifactKey: Guid(14f47984b8faa8d499904c666077e87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0005_1pixel_platform_01_tileset_final_64x64_0011_middle_grass_platform.png using Guid(14f47984b8faa8d499904c666077e87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a23f78f28e091b39d353f8e4527deda') in 0.016149 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000229 seconds.
-  path: Assets/Characters/Diger_Kadin_Doktor_Idle_4x.png
-  artifactKey: Guid(5f2e2911b70164d4bb42ac233cc5fe99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Diger_Kadin_Doktor_Idle_4x.png using Guid(5f2e2911b70164d4bb42ac233cc5fe99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e49c6fc16c08eb01b832db4237160fd') in 0.017288 seconds 
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0010_1pixel_platform_01_tileset_final_64x64_0006_lefttop_grass_platform.png
+  artifactKey: Guid(c056a82414f4e3449ace2ec99887369d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0010_1pixel_platform_01_tileset_final_64x64_0006_lefttop_grass_platform.png using Guid(c056a82414f4e3449ace2ec99887369d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6258523a62ba3616c912bfbf5b738599') in 0.015098 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Characters/Erkek_2_Yurume_Iyılesmis_3x.png
-  artifactKey: Guid(3c88be7d69ebe5f4791d7a210ecbe2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_2_Yurume_Iyılesmis_3x.png using Guid(3c88be7d69ebe5f4791d7a210ecbe2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a7cc0cdf6f40e0c81c854a30edd738') in 0.017637 seconds 
+  Time since last request: 0.000176 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0014_1pixel_platform_01_tileset_final_64x64_0005_singletop_grass_platform-copy-5.png
+  artifactKey: Guid(4e32a30cb8b53c94fbbf491dda5d8b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0014_1pixel_platform_01_tileset_final_64x64_0005_singletop_grass_platform-copy-5.png using Guid(4e32a30cb8b53c94fbbf491dda5d8b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9537cf515e45bacbf641e920c0375152') in 0.016598 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Characters/Erkek_1_Idle_4x.png
-  artifactKey: Guid(18e93f61bb84e184bbd4be2249244179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_1_Idle_4x.png using Guid(18e93f61bb84e184bbd4be2249244179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b41a9ecf5cb4990df7bff61de0576fa') in 0.025050 seconds 
+  Time since last request: 0.000396 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0027_1pixel_platform_01_tileset_final_64x64_0002_minileft_grass_platform-copy.png
+  artifactKey: Guid(637719a707aeac042b3e32baa4ae8b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0027_1pixel_platform_01_tileset_final_64x64_0002_minileft_grass_platform-copy.png using Guid(637719a707aeac042b3e32baa4ae8b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efc80a7022a92af380935a918150e30') in 0.015343 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Characters/Kadin_2_Yurume_4x.png
-  artifactKey: Guid(1143fde7522fcb04597de3189f3f139a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_2_Yurume_4x.png using Guid(1143fde7522fcb04597de3189f3f139a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd43bb36299ce2eb9140b2de099e1fd') in 0.017425 seconds 
+  Time since last request: 0.000172 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0020_1pixel_platform_01_tileset_final_64x64_0003s_0002_topmiddle30_grass_platform-copy-4.png
+  artifactKey: Guid(abf34a8acbb82f949a4b9ddb50bc4cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0020_1pixel_platform_01_tileset_final_64x64_0003s_0002_topmiddle30_grass_platform-copy-4.png using Guid(abf34a8acbb82f949a4b9ddb50bc4cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485cc357348d57b8fd9fde429020eaec') in 0.015232 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Characters/Kadin_1_Yurume_2x.png
-  artifactKey: Guid(ee713982e28d67c46b8515208db81ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_1_Yurume_2x.png using Guid(ee713982e28d67c46b8515208db81ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddce8008eef7ff4e2a56b920d0dbee42') in 0.017965 seconds 
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0029_1pixel_platform_01_tileset_final_64x64_0002s_0002_topmiddle30_grass_platform-copy-4.png
+  artifactKey: Guid(56d384b61b11d3a448ea71fa47fd5d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0029_1pixel_platform_01_tileset_final_64x64_0002s_0002_topmiddle30_grass_platform-copy-4.png using Guid(56d384b61b11d3a448ea71fa47fd5d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafd2a5bbfeae09f55384850875fac2e') in 0.016945 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Characters/Erkek_Doktor_Idle_4x.png
-  artifactKey: Guid(833a806edd0642b4c8e820f6758e080d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_Doktor_Idle_4x.png using Guid(833a806edd0642b4c8e820f6758e080d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634ab69291367676258d28da392b1bdc') in 0.017596 seconds 
+  Time since last request: 0.000222 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0009_1pixel_platform_01_tileset_final_64x64_0007_leftbottom_grass_platform.png
+  artifactKey: Guid(bf98360601c561049a11d8bef2c420cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0009_1pixel_platform_01_tileset_final_64x64_0007_leftbottom_grass_platform.png using Guid(bf98360601c561049a11d8bef2c420cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5df00a258d33886f7ab3b43dbf7086') in 0.016590 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Characters/Kadin_1_Yurume_4x.png
-  artifactKey: Guid(bc580f6ebf122174cb42571c142bca22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_1_Yurume_4x.png using Guid(bc580f6ebf122174cb42571c142bca22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbfc80e9b34ca6bf8de20f37a3e1aea') in 0.016860 seconds 
+  Time since last request: 0.000154 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_1pixel_platform_01_tileset_final_64x64_0003s_0001_topmiddle30_grass_platform copy 5.png
+  artifactKey: Guid(e081510f4b3924d4c9b10b32f2d7080c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_1pixel_platform_01_tileset_final_64x64_0003s_0001_topmiddle30_grass_platform copy 5.png using Guid(e081510f4b3924d4c9b10b32f2d7080c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34db3d8aea97ab8d2ac211d95687f7e') in 0.015588 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Characters/Kadin_1_Idle_4x.png
-  artifactKey: Guid(d590dc0b1e8b5954e9224df009ca4e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_1_Idle_4x.png using Guid(d590dc0b1e8b5954e9224df009ca4e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f50eb7a2d1b7573a24280012f10532') in 0.017378 seconds 
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0003_2pixel_platform_01_tileset_final_64x64_0000s_0001_moveable_left_platform.png
+  artifactKey: Guid(190e013a638caf542b8896e8c69b28c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0003_2pixel_platform_01_tileset_final_64x64_0000s_0001_moveable_left_platform.png using Guid(190e013a638caf542b8896e8c69b28c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a3b6e945caa0ee621f1e504358594d') in 0.020585 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Characters/Kadin_1_Yurume_Iyılesmis_4x.png
-  artifactKey: Guid(e4526ab7718122447a98eb91a2a926b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_1_Yurume_Iyılesmis_4x.png using Guid(e4526ab7718122447a98eb91a2a926b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3488009ec5198528a97c27e29ea78407') in 0.018227 seconds 
+  Time since last request: 0.000164 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0011_1pixel_platform_01_tileset_final_64x64_0005s_0002_topmiddle_grass_platform-copy.png
+  artifactKey: Guid(86bc9867fa95dc94da88ecd87ff8a2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0011_1pixel_platform_01_tileset_final_64x64_0005s_0002_topmiddle_grass_platform-copy.png using Guid(86bc9867fa95dc94da88ecd87ff8a2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a553fdbb2a5ca6414d5155e836500517') in 0.014594 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Characters/Kadın_Doktor_Kosma_4x.png
-  artifactKey: Guid(a7be717c54f14de41832593d699268a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadın_Doktor_Kosma_4x.png using Guid(a7be717c54f14de41832593d699268a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b1bc8d29c026c5cde6bb7c2e8b859d') in 0.020458 seconds 
+  Time since last request: 0.000161 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0013_1pixel_platform_01_tileset_final_64x64_0005s_0000_topmiddle_grass_platform-copy-3.png
+  artifactKey: Guid(0943e21c96d710b4891759b198e4e7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0013_1pixel_platform_01_tileset_final_64x64_0005s_0000_topmiddle_grass_platform-copy-3.png using Guid(0943e21c96d710b4891759b198e4e7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95f92905650c7985b391a596775631f') in 0.016126 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Characters/Erkek_2_Kosma_3x.png
-  artifactKey: Guid(cb9b266e85f736f49a6b160d57ea7182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_2_Kosma_3x.png using Guid(cb9b266e85f736f49a6b160d57ea7182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1abbd5b05aad9a6abfb186d9e55d6a') in 0.017167 seconds 
+  Time since last request: 0.000377 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_1pixel_platform_01_tileset_final_64x64_0002s_0001_topmiddle30_grass_platform copy 5.png
+  artifactKey: Guid(1d5baf0a3c5fb794da0b50dfd7b49527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_1pixel_platform_01_tileset_final_64x64_0002s_0001_topmiddle30_grass_platform copy 5.png using Guid(1d5baf0a3c5fb794da0b50dfd7b49527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd554d0dd0fed25489431a88f4fd7a17c') in 0.015656 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Characters/Erkek_2_Yurume_Iyılesmis_2x.png
-  artifactKey: Guid(0e8bb6521cb964b4681444b6c1408481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_2_Yurume_Iyılesmis_2x.png using Guid(0e8bb6521cb964b4681444b6c1408481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a213ae9dbeb430b8ba72f687b53abdba') in 0.019391 seconds 
+  Time since last request: 0.000186 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0026_1pixel_platform_01_tileset_final_64x64_0002s_0000_topmiddle30_grass_platform-copy-8.png
+  artifactKey: Guid(94358d43b888dcb43ad49af8ec0bf8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0026_1pixel_platform_01_tileset_final_64x64_0002s_0000_topmiddle30_grass_platform-copy-8.png using Guid(94358d43b888dcb43ad49af8ec0bf8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23af648c36e9fc9acac12339d50bda2f') in 0.015432 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Characters/Erkek_Doktor_Kosma_3x.png
-  artifactKey: Guid(91db80b8a21f053439acb60a282419fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_Doktor_Kosma_3x.png using Guid(91db80b8a21f053439acb60a282419fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a99398b9dff4c0ce598f15a0920fcb') in 0.017307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Characters/Kadin_2_Idle_3x.png
-  artifactKey: Guid(265798cee62639f448b19ce2afd8e669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_2_Idle_3x.png using Guid(265798cee62639f448b19ce2afd8e669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c24273873f2af9de081d568533221f2') in 0.019161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Characters/Erkek_2_Idle_2x.png
-  artifactKey: Guid(788a0ec312118b14b854a179dbd9a29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_2_Idle_2x.png using Guid(788a0ec312118b14b854a179dbd9a29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962ac94a45f69ce2d09be7ae41f3e179') in 0.020232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Characters/Erkek_Doktor_Idle_2x.png
-  artifactKey: Guid(750c15ff2d057384abd4ec5613a4f93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_Doktor_Idle_2x.png using Guid(750c15ff2d057384abd4ec5613a4f93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2c3d501991f527acd1090981534d43') in 0.016371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Characters/Kadin_1_Yurume_Iyılesmis_3x.png
-  artifactKey: Guid(bc1fabb4d6258e0488cb320a95b6a3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_1_Yurume_Iyılesmis_3x.png using Guid(bc1fabb4d6258e0488cb320a95b6a3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33656f5a11e4ba15e922fbe894c270cb') in 0.017569 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Characters/Diger_Erkek_Doktor_Idle_2x.png
-  artifactKey: Guid(0ff756950e244b749bc0063361e43284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Diger_Erkek_Doktor_Idle_2x.png using Guid(0ff756950e244b749bc0063361e43284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f249f87a5271b52d3b56883cb20f3b') in 0.018060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Characters/Erkek_Doktor_Zıplama_2x.png
-  artifactKey: Guid(370868623ecbe3c44947c51b0f7a6134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_Doktor_Zıplama_2x.png using Guid(370868623ecbe3c44947c51b0f7a6134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89511ddfac911fc660ab9b6aa773b26c') in 0.017672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Characters/Erkek_Doktor_Zıplama_3x.png
-  artifactKey: Guid(edfc3fd49f5fe24439175c1f47b0329f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_Doktor_Zıplama_3x.png using Guid(edfc3fd49f5fe24439175c1f47b0329f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3406eb9ed922129880ee2df03632aa43') in 0.017117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Characters/Erkek_Doktor_Kosma_2x.png
-  artifactKey: Guid(60e9a34ef085ff041956efab201ce316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_Doktor_Kosma_2x.png using Guid(60e9a34ef085ff041956efab201ce316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4428be57f9631357c6b4ced59904c65a') in 0.018521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Characters/Diger_Kadin_Doktor_Idle_3x.png
-  artifactKey: Guid(bcfa3147713c460419b5452287b66825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Diger_Kadin_Doktor_Idle_3x.png using Guid(bcfa3147713c460419b5452287b66825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d44af0b9c2b76552b4a148ecf2b2c3') in 0.018412 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Characters/Diger_Kadın_Doktor_Kosma_3x.png
-  artifactKey: Guid(b319601f674700f419904303dfeb8174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Diger_Kadın_Doktor_Kosma_3x.png using Guid(b319601f674700f419904303dfeb8174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dd1c98f1c5559c8fe5665aa4675e5d') in 0.018842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Characters/Erkek_1_Yurume_2x.png
-  artifactKey: Guid(bc818692fc2b7804bbfc6f159c6ddf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_1_Yurume_2x.png using Guid(bc818692fc2b7804bbfc6f159c6ddf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c69fadad17a3e4439e0b8877cf3cf9') in 0.017912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Characters/Diger_Erkek_Doktor_Idle_3x.png
-  artifactKey: Guid(d042098a97d42ee4f9ebe08e06aaba8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Diger_Erkek_Doktor_Idle_3x.png using Guid(d042098a97d42ee4f9ebe08e06aaba8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5120bbca26ad41002231836b5d419d41') in 0.017831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Characters/Erkek_2_Idle_4x.png
-  artifactKey: Guid(9f7d8197df7fcd347b11d0e56a56d98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_2_Idle_4x.png using Guid(9f7d8197df7fcd347b11d0e56a56d98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd772e492a8637bb17b17ffa222ab63d') in 0.015385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Characters/Erkek_1_Idle_3x.png
-  artifactKey: Guid(e9a56b0e44733dd48b2fa2a103fd623b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_1_Idle_3x.png using Guid(e9a56b0e44733dd48b2fa2a103fd623b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4b91d3e35ab124c7b9c37e69fb6699') in 0.017118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Characters/Kadin_2_Yurume_3x.png
-  artifactKey: Guid(a7efdd9f3ccda1647a0bfebd3541554d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_2_Yurume_3x.png using Guid(a7efdd9f3ccda1647a0bfebd3541554d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00c6209bb4b8352098200783e59ee1a') in 0.017822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/Characters/Erkek_1_Yurume_Saglikli_2x.png
-  artifactKey: Guid(0eb95d5b4668e694ba22fe8052e773ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_1_Yurume_Saglikli_2x.png using Guid(0eb95d5b4668e694ba22fe8052e773ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7605131b8ad0c7c7ab87ffc4aa2416ab') in 0.016873 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Characters/Erkek_2_Kosma_4x.png
-  artifactKey: Guid(b5a8b56db829d9f4eab6a333e88701a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_2_Kosma_4x.png using Guid(b5a8b56db829d9f4eab6a333e88701a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2501940983ca341f6fe01fed8f7221f1') in 0.018070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Characters/Erkek_Doktor_Idle_3x.png
-  artifactKey: Guid(35f44f40e04392c4fab12b22632eb339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_Doktor_Idle_3x.png using Guid(35f44f40e04392c4fab12b22632eb339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87aba03748925403aab74ca20d6b1e2') in 0.019072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Characters/Kadin_2_Yurume_Iyılesmis_4x.png
-  artifactKey: Guid(e88b5115c9ccd534c8a8b864df742656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_2_Yurume_Iyılesmis_4x.png using Guid(e88b5115c9ccd534c8a8b864df742656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26dd8c019756157d708f2f89d1903973') in 0.017394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Characters/Diger_Erkek_Doktor_YerdeUzanmis_4x.png
-  artifactKey: Guid(8203e622547d13f43a16710b70afb1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Diger_Erkek_Doktor_YerdeUzanmis_4x.png using Guid(8203e622547d13f43a16710b70afb1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bb22dc1deaf6d94ecb57dc37acf9df') in 0.019411 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Characters/Erkek_1_Yurume_4x.png
-  artifactKey: Guid(c718f29c7840e184e972c45c8729a36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Erkek_1_Yurume_4x.png using Guid(c718f29c7840e184e972c45c8729a36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f63786d6695bd05f0c3edef59e26ee') in 0.019636 seconds 
+  Time since last request: 0.000191 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0019_1pixel_platform_01_tileset_final_64x64_0003s_0003_topmiddle30_grass_platform-copy-3.png
+  artifactKey: Guid(9f8ae12a0c7173b40a95959e8290c733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0019_1pixel_platform_01_tileset_final_64x64_0003s_0003_topmiddle30_grass_platform-copy-3.png using Guid(9f8ae12a0c7173b40a95959e8290c733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376079979cdeee12d5ac462b776b8fa2') in 0.016394 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000300 seconds.
-  path: Assets/Characters/Kadin_2_Yurume_2x.png
-  artifactKey: Guid(fc03a17a3df50924c9290bc8d5722ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_2_Yurume_2x.png using Guid(fc03a17a3df50924c9290bc8d5722ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7bd36681817ba54138835ecf9f1ac3') in 0.023579 seconds 
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0006_1pixel_platform_01_tileset_final_64x64_0010_topmiddle_grass_platform.png
+  artifactKey: Guid(8076de0a2bd20434ea48d19cd0a390c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0006_1pixel_platform_01_tileset_final_64x64_0010_topmiddle_grass_platform.png using Guid(8076de0a2bd20434ea48d19cd0a390c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4f8e714babf3c313e19e866a0da829') in 0.016048 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Characters/Kadin_2_Idle_4x.png
-  artifactKey: Guid(ed47efb62ed4c284ca0f0d2c5c18d27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadin_2_Idle_4x.png using Guid(ed47efb62ed4c284ca0f0d2c5c18d27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf36c3f4050ff2b2d0856c9781dcbd9') in 0.016085 seconds 
+  Time since last request: 0.000295 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0004_2pixel_platform_01_tileset_final_64x64_0000s_0000_moveable_single_platform-copy.png
+  artifactKey: Guid(86ab0b34673f5064b94310e2d7dddd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0004_2pixel_platform_01_tileset_final_64x64_0000s_0000_moveable_single_platform-copy.png using Guid(86ab0b34673f5064b94310e2d7dddd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8876741d91138b1198b80ce83bb91c4') in 0.020456 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Characters/Diger_Erkek_Doktor_Idle_4x.png
-  artifactKey: Guid(e34d3ff5aad3f9b4fa3a820354067ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Diger_Erkek_Doktor_Idle_4x.png using Guid(e34d3ff5aad3f9b4fa3a820354067ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f4637244883a4e37b570aaaf72e8b0') in 0.017145 seconds 
+  Time since last request: 0.000223 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0012_1pixel_platform_01_tileset_final_64x64_0005s_0001_topmiddle45_grass_platform.png
+  artifactKey: Guid(583311944a914664fb08993ab7c2f527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0012_1pixel_platform_01_tileset_final_64x64_0005s_0001_topmiddle45_grass_platform.png using Guid(583311944a914664fb08993ab7c2f527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a650f63b25dda41171f1af4dd155e341') in 0.017108 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Characters/Diger_Kadın_Doktor_Kosma_4x.png
-  artifactKey: Guid(ebf4f377e7bee4a44ac92a855d46823b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Diger_Kadın_Doktor_Kosma_4x.png using Guid(ebf4f377e7bee4a44ac92a855d46823b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6441624e43baa5592c8fcb94e77fc2b6') in 0.018729 seconds 
+  Time since last request: 0.000185 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0001_2pixel_platform_01_tileset_final_64x64_0000s_0003_moveable_middle_platform.png
+  artifactKey: Guid(4f45449aafdf9884aa82763cce2df7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0001_2pixel_platform_01_tileset_final_64x64_0000s_0003_moveable_middle_platform.png using Guid(4f45449aafdf9884aa82763cce2df7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23ba9fcc9f31b6aaff5009fb74ea43e') in 0.021279 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Characters/Kadın_Doktor_Idle_4x.png
-  artifactKey: Guid(ba6988e638193dc4f849ad32149ade56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Kadın_Doktor_Idle_4x.png using Guid(ba6988e638193dc4f849ad32149ade56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17bbec1edca3928680e386dbd9b9316') in 0.017670 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  Time since last request: 0.000197 seconds.
+  path: Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0022_1pixel_platform_01_tileset_final_64x64_0003s_0000_topmiddle30_grass_platform-copy-8.png
+  artifactKey: Guid(836c1d3f632a2b74f90735bb60558a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSprite/TileSetBirleşmiş2Son_0022_1pixel_platform_01_tileset_final_64x64_0003s_0000_topmiddle30_grass_platform-copy-8.png using Guid(836c1d3f632a2b74f90735bb60558a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4333f891d83e587658bf8f46a93545e9') in 0.015566 seconds 
